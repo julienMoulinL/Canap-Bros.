@@ -10,7 +10,7 @@ function toggleMenu() {
 // Ajouter la classe "active" à l'élément de la barre de navigation correspondant à la page actuelle
 var currentLocation = window.location.href;
 var navLinks = document.querySelectorAll('.topnav a');
-navLinks.forEach(function(link) {
+navLinks.forEach(function (link) {
   if (link.href === currentLocation) {
     link.classList.add('active');
   } else {
