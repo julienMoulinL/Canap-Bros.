@@ -4,6 +4,7 @@
   background-color: #333;
   overflow: hidden;
 }
+
 .topnav a {
   float: left;
   display: block;
@@ -13,35 +14,43 @@
   text-decoration: none;
   font-size: 17px;
 }
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
+
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
 }
+
 /* Styles pour le menu hamburger */
 .topnav .icon {
   display: none;
 }
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
   }
+
   /* Styles pour le menu responsive */
   .topnav.responsive {
     position: relative;
   }
+
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -55,10 +64,7 @@ body {
   margin-bottom: 10vh;
 }
 
-.dark-theme {
-  background-color: black;
-  color: white;
-}
+
 
 .bold {
   font-weight: bold;
@@ -72,16 +78,6 @@ body {
   text-align: center;
 }
 
-
-a {
-  color: dodgerblue;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(113, 184, 255);
-  text-decoration: underline;
-}
 
 .text-img-container {
   display: flex;
@@ -114,7 +110,8 @@ form {
 }
 
 .submit-btn {
-  background-color: dodgerblue; /* Green */
+  background-color: dodgerblue;
+  /* Green */
   border: none;
   color: white;
   padding: 12px;
@@ -123,91 +120,97 @@ form {
   font-size: 16px;
 }
 
-  .carousel-container {
-    max-width: 325px;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-  }
-  
-  .slides {
-    display: flex;
-  }
-  
-  .slides img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .previous,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .previous:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  .fade {
-    animation: fade 1.5s;
-  }
-  
-  @keyframes fade {
-    from {
-      opacity: 0.6;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  footer {
-    background-color: #313030;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 25px;
+.carousel-container {
+  max-width: 325px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+  animation: fade 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.6;
   }
 
-  .banner-image {
-    width: 100%; /* Assurez-vous que l'image occupe toute la largeur du header */
-    height: 220px; /* Permet à l'image de conserver son ratio */
-    display: block; /* Pour s'assurer qu'elle occupe tout l'espace horizontal */
+  to {
+    opacity: 1;
   }
-  
-  /* Styles pour le header */
-  header {
-    position: relative; /* Position relative pour que les éléments internes soient positionnés par rapport à ce conteneur */
-  }
+}
 
-  /* Styles pour le texte du header */
+footer {
+  background-color: #313030;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+}
+
+.banner-image {
+  width: 100%;
+  /* Assurez-vous que l'image occupe toute la largeur du header */
+  height: 220px;
+  /* Permet à l'image de conserver son ratio */
+  display: block;
+  /* Pour s'assurer qu'elle occupe tout l'espace horizontal */
+}
+
+/* Styles pour le header */
+header {
+  position: relative;
+  /* Position relative pour que les éléments internes soient positionnés par rapport à ce conteneur */
+}
+
+/* Styles pour le texte du header */
 .header-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: black; /* Couleur du texte */
+  color: black;
+  /* Couleur du texte */
 }
 
 .header-text h1 {
@@ -221,4 +224,3 @@ form {
   margin-top: 10px;
   text-align: center;
 }
- 
