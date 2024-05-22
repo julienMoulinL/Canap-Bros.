@@ -92,9 +92,3 @@ document.querySelector('.next-SUPNES').addEventListener('click', function() {
 document.querySelector('.previous-SUPNES').addEventListener('click', function() {
     plusSlidesSUPNES(-1);
 });
-
-
-if (typeof toto !== "undefined") {
-  // Désormais, on sait que toto est bien
-  // défini et on peut poursuivre.
-}
