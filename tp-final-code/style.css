@@ -220,57 +220,47 @@ header {
   text-align: center;
 }
 
-.header-text p {
-  font-size: 1.5em;
-  margin-top: 10px;
-  text-align: center;
-}
 
-.image-event {
-  height: 750px;
-  width: 950px;
-  position: relative;
-  left: auto;
-}
+
 
 /*                   style CSS collection Retrogaming                        */
 
 
 
-.texte-titre{
+.texte-titre {
   text-align: center;
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
 }
-  
-.haut-body-C{
+
+.haut-body-C {
   display: flex;
   flex-direction: column;
   margin-top: 1vh;
   padding: 10px;
 }
 
-.L-Nitendo-C{
+.L-Nitendo-C {
   display: flex;
   justify-content: center;
 }
 
-.logo-N{
+.logo-N {
   width: 200px;
   height: 50px;
 }
 
-.NES-section{
+.NES-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.text-press-consoles{
+.text-press-consoles {
   text-align: center;
 }
 
-.image-consoles{
+.image-consoles {
   width: 100px;
   height: 100px;
 }
@@ -304,7 +294,8 @@ header {
   padding: 8px 16px;
 }
 
-.previous, .next {
+.previous,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -357,7 +348,8 @@ header {
   padding: 8px 16px;
 }
 
-.previous-SUPNES, .next-SUPNES {
+.previous-SUPNES,
+.next-SUPNES {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -379,4 +371,62 @@ header {
 
 .previous-SUPNES {
   left: 0;
+}
+
+#formulaire-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+background-color: #fff;
+padding: 5px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+}
+
+/* Style des éléments du formulaire */
+form h2 {
+margin-bottom: 20px;
+text-align: center;
+}
+
+form label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+form input {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+form button {
+width: 100%;
+padding: 10px;
+background-color: #007BFF;
+border: none;
+border-radius: 4px;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #0056b3;
+}
+
+.image-event {
+  width: 60%;
+  height: auto;
+  border: 2px solid #000;
 }
