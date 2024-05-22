@@ -232,3 +232,151 @@ header {
   position: relative;
   left: auto;
 }
+
+/*                   style CSS collection Retrogaming                        */
+
+
+
+.texte-titre{
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+  
+.haut-body-C{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  padding: 10px;
+}
+
+.L-Nitendo-C{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-N{
+  width: 200px;
+  height: 50px;
+}
+
+.NES-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-press-consoles{
+  text-align: center;
+}
+
+.image-consoles{
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-container {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 24%;
+  margin: 20px;
+}
+
+.carte-image-carousel {
+  width: 100%;
+  display: block;
+}
+
+.carousel-caption {
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+}
+
+.previous, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous {
+  left: 0;
+}
+
+.carousel-container-SUPNES {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.carousel-inner-SUPNES {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-SUPNES {
+  min-width: 24%;
+  margin: 20px;
+}
+
+.carte-image-carousel-SUPNES {
+  width: 100%;
+  display: block;
+}
+
+.carousel-caption-SUPNES {
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+}
+
+.previous-SUPNES, .next-SUPNES {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next-SUPNES {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous-SUPNES {
+  left: 0;
+}
